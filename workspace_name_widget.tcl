@@ -1,5 +1,6 @@
 #!/usr/bin/wish
 
+# See README for info on configuration variables :)
 set conf_x 590
 set conf_y 3
 set conf_height 1
