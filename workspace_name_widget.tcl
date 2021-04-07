@@ -6,7 +6,7 @@ set conf_refresh_after 200
 set conf_background_color white
 set conf_foreground_color red3
 set conf_font "sans-serif 11 bold"
-set conf_path "/home/rawad/projects/ws_name"
+set conf_path [file dirname $::argv0]
 
 wm title . "Workspace name"
 wm overrideredirect . 1
