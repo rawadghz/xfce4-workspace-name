@@ -2,6 +2,8 @@
 
 set conf_x 590
 set conf_y 3
+set conf_height 1
+set conf_width 3
 set conf_refresh_after 200
 set conf_background_color white
 set conf_foreground_color red3
@@ -35,4 +37,4 @@ proc refresh_workspace_name {} {
 
 refresh_workspace_name
 
-grid [label .lbl_output -background $conf_background_color -foreground $conf_foreground_color -text "Hello World" -height 1 -width 3 -textvariable var_workspace_name -justify center -font $conf_font]
+grid [label .lbl_output -background $conf_background_color -foreground $conf_foreground_color -text "Hello World" -height $conf_height -width $conf_width -textvariable var_workspace_name -justify center -font $conf_font]
